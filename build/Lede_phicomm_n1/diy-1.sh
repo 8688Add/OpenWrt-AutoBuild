@@ -11,6 +11,8 @@
 rm -rf package/lean/luci-app-dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git package/lean/luci-app-dockerman
 git clone https://github.com/Mattraks/helloworld.git package/luci-app-ssr-plus
+svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns package/smartdns
+git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
